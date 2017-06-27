@@ -4,8 +4,18 @@ STAIR Captions website is http://captions.stair.center .
 
 ## Annotation Format
 STAIR Captions dataset is provided as JSON files.
-The annotation format of STAIR Captions follows the one of MS-COCO.
+The annotation format of STAIR Captions follows the one of MS-COCO: 
+```
+annotation{
+  "id"                : int,
+  "image_id"          : int,
+  "caption"           : str,
+  "tokenized_caption" :
+}
+```
+
 For the details of the annotation format, please see [MS-COCO download page](http://mscoco.org/dataset/#download).
+
 
 ## Publications
 - Yuya Yoshikawa, Yutaro Shigeto, Akikazu Takeuchi, ``STAIR Captions: Constructing a Large-Scale Japanese Image Caption Dataset,'' Annual Meeting of the Association for Computational Linguistics (ACL), Short Paper, 2017. (to appear) [[arXiv](https://arxiv.org/abs/1705.00823)] 
