@@ -10,7 +10,7 @@ annotation{
   "id"                : int,
   "image_id"          : int,
   "caption"           : str,
-  "tokenized_caption" :
+  "tokenized_caption" : str,
 }
 ```
 
